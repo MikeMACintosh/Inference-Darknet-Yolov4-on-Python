@@ -9,7 +9,7 @@ $ ./darknet detector test obj.data yolo-obj.cfg backup/yolo-obj_5000.weights
 </pre>
 
 ### Keep in mind that to launch you will need to build darknet on your machine or in Google Collab and 
-edit yolo-obj.cfg for your environment
+### edit yolo-obj.cfg for your environment
 
 ![predictions](https://user-images.githubusercontent.com/85686842/196692771-948b7a46-1f1f-4124-9876-2d4efdcbc702.jpg)
 
