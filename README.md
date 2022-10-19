@@ -2,7 +2,7 @@
 ### The goal of our object detection system is to correctly detect workers, their reflective vest and safety helmet
 ### The detection are based on [darknet framework](https://github.com/AlexeyAB/darknet)
 
-### To reproduce this through CLI load [darknet checkpoints](https://drive.google.com/drive/folders/16lyxCtGiIK4Bj22AD8-nmZniR5SGN35m) just run in darknet root this command and paste path to image (last prediciton will be saved in predictions.jpg):
+### To reproduce this through CLI load [darknet checkpoints](https://drive.google.com/drive/folders/16lyxCtGiIK4Bj22AD8-nmZniR5SGN35m) just run in darknet root this commands and paste path to image (last prediciton will be saved in predictions.jpg):
 <pre/>
 $ wget https://drive.google.com/drive/folders/16lyxCtGiIK4Bj22AD8-nmZniR5SGN35m
 $ ./darknet detector test obj.data yolo-obj.cfg backup/yolo-obj_5000.weights
