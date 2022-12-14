@@ -1,6 +1,11 @@
 # ICVR-object-detection
 ### The goal of our object detection system is to correctly detect workers, their reflective vest and safety helmet
 ### The detection are based on [darknet framework](https://github.com/AlexeyAB/darknet)
+### There are two ways to inference: cloning darknet framework, building and testing your image or using [darknet_inference.py]
+
+<pre/>
+$ git clone https://github.com/AlexeyAB/darknet
+</pre>
 
 ### To reproduce this through CLI load [darknet checkpoints](https://drive.google.com/drive/folders/16lyxCtGiIK4Bj22AD8-nmZniR5SGN35m) and run in darknet root this commands and paste path to image (last prediciton will be saved in predictions.jpg) or use [darknet_inference.py](https://github.com/MikeMACintosh/Inference-Darknet-Yolov4-on-Python/blob/main/darknet_inference.py):
 <pre/>
